@@ -36,13 +36,10 @@ const columns = [
   }
 ]
 
-const ChindataTable = () => {
-
-  return (
-    <div>
-      <Table dataSource={dataSource} columns={columns}/>
-    </div>
-  )
-}
+const ChindataTable = () => (
+  <div>
+    <Table dataSource={dataSource} columns={columns}/>
+  </div>
+)
 
 export default ChindataTable
